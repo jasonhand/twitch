@@ -1,10 +1,10 @@
 # Twitch - Ep: 01: Building a static website using Hugo
 
-[![](img/twitchep1-github.png)](https://www.twitch.tv/videos/591274855)
+[![](img/twitch02-github.png)](https://www.twitch.tv/videos/591274855)
 
 ## Tools needed
 
-- [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=twitchep1-github-jahand)
+- [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=twitch02-github-jahand)
 - [Azure Storage Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
 - [Hugo](https://gohugo.io/)
 - [Git (for Mac)](https://sourceforge.net/projects/git-osx-installer/)
@@ -17,8 +17,8 @@ git --version
 
 ## Accounts needed
 
-- [Github](https://github.com/join/?wt.mc_id=twitchep1-github-jahand)
-- [Azure](http://azure.com/join/?wt.mc_id=twitchep1-github-jahand)
+- [Github](https://github.com/join/?wt.mc_id=twitch02-github-jahand)
+- [Azure](http://azure.com/join/?wt.mc_id=twitch02-github-jahand)
 - [Netlify](https://app.netlify.com/signup)
 
 ## Objective
@@ -38,10 +38,10 @@ We will host the static site on Netlify and set triggers up in Github to automat
 ## Steps
 
 1. Create accounts for
-   1. [Github](https://github.com/join/?wt.mc_id=twitchep1-github-jahand),
-   2. [Azure](http://azure.com/join/?wt.mc_id=twitchep1-github-jahand),
+   1. [Github](https://github.com/join/?wt.mc_id=twitch02-github-jahand),
+   2. [Azure](http://azure.com/join/?wt.mc_id=twitch02-github-jahand),
    3. [Netlify](https://app.netlify.com/signup)
-2. Download [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=twitchep1-github-jahand)
+2. Download [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=twitch02-github-jahand)
 3. Install [Azure Storage VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
 4. Install Git
 5. Install Hugo
