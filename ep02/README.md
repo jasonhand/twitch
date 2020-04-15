@@ -1,4 +1,4 @@
-# twitch02 Episode 2 Notes
+# Twitch - Ep: 02: Deploying a Serverless URL Shortener with Azure Functions
 
 In this episode I deploy a serverless URL Shortener built by Frank Boucher and then step through all of the resources to describe what is happening. Finally, we will test out the deployment by sending a URL (from dev.to) to the function to create a shortened URL.
 
