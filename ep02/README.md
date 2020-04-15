@@ -23,6 +23,3 @@ Check out Frank's repository with all of the code and deployment details below.
 |File Storage   |[Docs](https://docs.microsoft.com/en-us/azure/storage/files/?WT.mc_id=github-twitch02-jahand)   |[Learn](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/?WT.mc_id=github-twitch02-jahand)   | [Other](https://azure.microsoft.com/en-us/services/storage/files/?WT.mc_id=github-twitch02-jahand)  |   |
 |Application Insights   |[Docs](https://docs.microsoft.com/en-us/azure/azure-monitor/azure-monitor-app-hub/?WT.mc_id=github-twitch02-jahand)   |[Learn](https://docs.microsoft.com/en-us/learn/modules/capture-page-load-times-application-insights/?WT_.mc_id=github-twitch02-jahand)   | [Other](https://docs.microsoft.com/en-us/azure/azure-monitor/overview/?WT_.mc_id=github-twitch02-jahand)  | [More](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview/?WT_.mc_id=github-twitch02-jahand)   |
 |Consumption Plan  |[Docs](https://azure.microsoft.com/en-us/pricing/details/functions/?WT.mc_id=github-twitch02-jahand)   |Learn   |[Other](https://docs.microsoft.com/en-us/azure/azure-functions/functions-consumption-costs/?WT.mc_id=github-twitch02-jahand)   |
-
-
-?WT_.mc_id=github-twitch02-jahand
