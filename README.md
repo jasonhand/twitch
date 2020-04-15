@@ -7,6 +7,6 @@ This is my central repository for everything I do on Twitch.
 
 |Episode   |Topic   |Date   |Watch   |
 |---|---|---|---|
-|1   |[Static HTML (pt. 1)](/ep01/README.md)   |4/13/20   | [📼](https://www.twitch.tv/videos/591190635)  |
+|1   |[Static HTML (pt. 1)](/ep01/README.md)   |4/13/20   | [📼](https://youtu.be/jRgcvNpzpL0)  |
 |2   |[URL Shortener](/ep02/README.md)   |4/14/20   | [📼](https://www.twitch.tv/videos/592273163)  |
-|3   |Coming soon   |   |   |
+|3   |[Static HTML (pt. 2)](/ep03/README.md)   |4/15/20   |[📼](https://www.twitch.tv/videos/592273163)   |

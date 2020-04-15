@@ -57,6 +57,3 @@ We will host the static site on Netlify and set triggers up in Github to automat
 15. Create Azure Storage
 16. Push the `Public` folder to **$web** Blob
 17. View site on public address
-18. Push repository to Github (so it can be built in Netlify)
-19. Configure Netlify to point to repository for Hugo (not the HTML)
-20. View site on public address
