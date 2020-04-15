@@ -1,6 +1,6 @@
 # Twitch - Ep: 01: Building a Static Website Using Hugo, Azure storage, and Netlify (pt. 1)
 
-[![](img/twitch02-github.png)](https://youtu.be/jRgcvNpzpL0)
+[![](/ep01/img/twitchep1-github.png)](https://youtu.be/jRgcvNpzpL0)
 
 ## Tools needed
 
