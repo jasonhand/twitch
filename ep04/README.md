@@ -1,5 +1,7 @@
 # Analyzing Sentiment Analysis of Earth Day
 
+![](img/header.jpg)
+
 1. Create Azure Machine Learning Workspace
 2. Import notebook
 3. Create VM
