@@ -20,3 +20,8 @@
 18. Import json file to Cosmos DB
 19. View Data Explorer in Cosmos Db
 20. What's next? Query data?
+
+Resources:
+
+[Use Data migration tool to migrate your data to Azure Cosmos DB](
+https://docs.microsoft.com/en-us/azure/cosmos-db/import-data)
