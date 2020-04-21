@@ -47,13 +47,10 @@ Resources:
 
 [Getting Started with SQL queries in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-getting-started/?WT_.mc_id=github-twitch04-jahand)
 
+More:
 
 [Use Data migration tool to migrate your data to Azure Cosmos DB](
 https://docs.microsoft.com/en-us/azure/cosmos-db/import-data)
 
 [Twitter Scraping and Saving](
 https://github.com/Dkreitzer/Twitter_Scraping_and_Saving)
-
-
-
-?WT_.mc_id=github-twitch04-jahand
