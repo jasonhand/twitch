@@ -1,6 +1,8 @@
 # Analyzing Sentiment Analysis of Earth Day
 
-![](img/header.jpg)
+![EarthDay](img/header.jpg)
+
+In this episode we'll attempt to collect public twitter information, perform sentiment analysis, and import data in to Cosmos DB.
 
 1. Create Azure Machine Learning Workspace
 2. Import notebook
