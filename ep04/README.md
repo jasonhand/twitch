@@ -1,8 +1,8 @@
-# Analyzing Sentiment Analysis of Earth Day
+# Analyzing Tweets with Azure Machine Learning and Cosmos DB
 
 ![EarthDay](img/header.jpg)
 
-In this episode we'll attempt to collect public twitter information, perform sentiment analysis, and import data in to Cosmos DB.
+In this episode we'll attempt to collect public twitter information, export the data to JSON, and import data in to Cosmos DB for querying.
 
 1. Create Azure Machine Learning Workspace
 2. Import notebook
@@ -10,20 +10,17 @@ In this episode we'll attempt to collect public twitter information, perform sen
 4. Configure notebook
 5. Collect data (using pythong notebook, Tweepy, and the Twitter API)
 6. Save results to json, csv, and npy (list of unique IDs)
-7. Clean results and build sentiment analysis
-8. Convert sentiment analysis to Pandas DataFrame
-9. Scatter plot sentiment analysis
-10. Create Cosmos DB (I already have one to use)
-11. Create new item
-12. Attempt upload of json file (it's too big)
-13. Set up Windows VM
-14. Downlod and install RDP client on Mac
-15. Connect to Windows machine
-16. Download and install the Document DB Data Migration Tool
-17. Download json file
-18. Import json file to Cosmos DB
-19. View Data Explorer in Cosmos Db
-20. What's next? Query data?
+7. Create Cosmos DB (I already have one to use)
+8. Create new item
+9. Attempt upload of json file (it's too big)
+10. Set up Windows VM
+11. Downlod and install RDP client on Mac
+12. Connect to Windows machine
+13. Download and install the Document DB Data Migration Tool
+14. Download json file
+15. Import json file to Cosmos DB
+16. View Data Explorer in Cosmos Db
+17. Query data
 
 Resources:
 
