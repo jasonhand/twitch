@@ -15,7 +15,7 @@ https://github.com/Dkreitzer/Twitter_Scraping_and_Saving) to generate a list (JS
 
 1. [Create Azure Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace/?WT_.mc_id=github-twitch04-jahand)
 2. Import notebook (from local drive)
-3. Create VM ("[compute](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-instance/?WT_.mc_id=github-twitch04-jahand")
+3. Create VM ("[compute](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-instance/?WT_.mc_id=github-twitch04-jahand)"
 4. Configure & Execute [Jupyter notebook](https://docs.microsoft.com/en-us/azure/machine-learning/samples-notebooks/?WT_.mc_id=github-twitch04-jahand)
 5. Download JSON file
 
