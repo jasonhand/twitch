@@ -54,3 +54,17 @@ https://docs.microsoft.com/en-us/azure/cosmos-db/import-data)
 
 [Twitter Scraping and Saving](
 https://github.com/Dkreitzer/Twitter_Scraping_and_Saving)
+
+[More SQL in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-select/?WT_.mc_id=github-twitch04-jahand)
+Sample Query 1:
+
+```SQL
+SELECT c.entities.hashtags FROM c
+```
+
+Sample Query 2:
+
+```SQL
+SELECT { "hashtags": c.entities.hashtags, "user mentions": c.entities.user_mentions, "urls": c.urls }
+    FROM Hashtags c
+ ```
