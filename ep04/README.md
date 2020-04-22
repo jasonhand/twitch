@@ -21,6 +21,7 @@ In this episode we'll attempt to collect public twitter information, export the 
 15. Import json file to Cosmos DB
 16. View Data Explorer in Cosmos Db
 17. Query data
+18. Rotate API keys
 
 Resources:
 
