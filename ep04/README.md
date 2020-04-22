@@ -63,34 +63,34 @@ Because I need to generate a set of keys for the demo, I will then remove and re
 
 1. Rotate API keys
 
-Resources:
+## Resources
 
-[Azure](https://azure.microsoft.com/free/?WT_.mc_id=github-twitch04-jahand)
+- [Azure](https://azure.microsoft.com/free/?WT_.mc_id=github-twitch04-jahand)
 
-[Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/?WT_.mc_id=github-twitch04-jahand)
+- [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/?WT_.mc_id=github-twitch04-jahand)
 
-[Tweepy](https://tweepy.org)
+- [Tweepy](https://tweepy.org)
 
-[Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/?WT_.mc_id=github-twitch04-jahand)
+- [Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/?WT_.mc_id=github-twitch04-jahand)
 
-[Microsoft Remote Desktop 10](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12)
+- [Microsoft Remote Desktop 10](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12)
 
-[Visual Code Studio](https://code.visualstudio.com/docs/?WT_.mc_id=github-twitch04-jahand)
+- [Visual Code Studio](https://code.visualstudio.com/docs/?WT_.mc_id=github-twitch04-jahand)
 
-[Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701/?WT_.mc_id=github-twitch04-jahand)
+- [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701/?WT_.mc_id=github-twitch04-jahand)
 
-[Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction/?WT_.mc_id=github-twitch04-jahand)
+- [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction/?WT_.mc_id=github-twitch04-jahand)
 
-[Data Migration Tool](https://aka.ms/csdmtool)
+- [Data Migration Tool](https://aka.ms/csdmtool)
 
-[Getting Started with SQL queries in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-getting-started/?WT_.mc_id=github-twitch04-jahand)
+- [Getting Started with SQL queries in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-getting-started/?WT_.mc_id=github-twitch04-jahand)
 
-More:
+## More
 
-[Use Data migration tool to migrate your data to Azure Cosmos DB](
-https://docs.microsoft.com/en-us/azure/cosmos-db/import-data)
+- [Use Data migration tool to migrate your data to Azure Cosmos DB](
+https://docs.microsoft.com/en-us/azure/cosmos-db/import-data/?WT_.mc_id=github-twitch04-jahand)
 
-[Twitter Scraping and Saving](
+- [Twitter Scraping and Saving](
 https://github.com/Dkreitzer/Twitter_Scraping_and_Saving)
 
-[More SQL in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-select/?WT_.mc_id=github-twitch04-jahand)
+- [More SQL in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-select/?WT_.mc_id=github-twitch04-jahand)
