@@ -2,26 +2,41 @@
 
 ![EarthDay](img/header.jpg)
 
-In this episode we'll attempt to collect public twitter information, export the data to JSON, and import data in to Cosmos DB for querying.
+In this recording we'll attempt to collect information from the Twitter API, export the data to JSON, and import data in to Cosmos DB for querying.
+
+## Azure Machine Learning Studio
+
+Our first step will be to collect the data. We will use a Jupyter notebook (based on this repo) to generate a list (JSON) of tweets based on a search term. In our example, we'll use `#EarthDay`.
 
 1. Create Azure Machine Learning Workspace
-2. Import notebook
-3. Create VM
-4. Configure notebook
-5. Collect data (using pythong notebook, Tweepy, and the Twitter API)
-6. Save results to json, csv, and npy (list of unique IDs)
-7. Create Cosmos DB (I already have one to use)
-8. Create new item
-9. Attempt upload of json file (it's too big)
-10. Set up Windows VM
-11. Downlod and install RDP client on Mac
-12. Connect to Windows machine
-13. Download and install the Document DB Data Migration Tool
-14. Download json file
-15. Import json file to Cosmos DB
-16. View Data Explorer in Cosmos Db
-17. Query data
-18. Rotate API keys
+2. Import notebook (from local drive)
+3. Create VM ("compute")
+4. Configure & Execute notebook
+5. Download JSON file
+
+## Cosmos DB
+
+1. Create Cosmos DB (I already have one to use)
+2. Create new item
+3. Attempt upload of json file (it's too big)
+
+## Create Windows 10 Virtual Machine
+
+1. Set up Windows VM
+2. Downlod and install RDP client on Mac
+3. Connect to Windows machine
+
+## Migrate JSON data to Cosmos DB
+
+1. Download and install the Document DB Data Migration Tool
+2. Download json file
+3. Import json file to Cosmos DB
+4. View Data Explorer in Cosmos Db
+5. Query data
+
+## Clean up
+
+1. Rotate API keys
 
 Resources:
 
