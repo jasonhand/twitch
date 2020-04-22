@@ -28,17 +28,17 @@ We are going to use Cosmos DB to store our data.
 Files larger than 2MiB cannot be uploaded to Cosmos DB from the Data Explorer in the portal. We'll need to use software that is ONLY available on Windows PC. I don't have a Windows PC available, so we will need to create a virtual machine in Azure that we can remote login to and use to migrate the data.
 
 1. Set up Windows VM
-2. Downlod and install RDP client on Mac
+2. [Downlod and install](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12) RDP client on Mac
 3. Connect to Windows machine
 
 ## Migrate JSON data to Cosmos DB
 
 Using the Data Migration Tool we can connect to our new Cosmos DB and import the large JSON file.
 
-1. Download and install the Document DB Data Migration Tool
+1. [Download and install](https://aka.ms/csdmtool) the Document DB Data Migration Tool
 2. Download json file
-3. Import json file to Cosmos DB
-4. View Data Explorer in Cosmos Db
+3. [Import json file to Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/import-data/?WT_.mc_id=github-twitch04-jahand)
+4. [View Data Explorer in Cosmos Db](https://docs.microsoft.com/en-us/azure/cosmos-db/data-explorer/?WT_.mc_id=github-twitch04-jahand)
 
 ## Querying our data
 
@@ -66,31 +66,21 @@ Because I need to generate a set of keys for the demo, I will then remove and re
 ## Resources
 
 - [Azure](https://azure.microsoft.com/free/?WT_.mc_id=github-twitch04-jahand)
-
 - [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/?WT_.mc_id=github-twitch04-jahand)
-
+- [Developer.twitter.com](https://developer.twitter.com/en)
 - [Tweepy](https://tweepy.org)
-
 - [Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/?WT_.mc_id=github-twitch04-jahand)
-
 - [Microsoft Remote Desktop 10](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12)
-
 - [Visual Code Studio](https://code.visualstudio.com/docs/?WT_.mc_id=github-twitch04-jahand)
-
 - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701/?WT_.mc_id=github-twitch04-jahand)
-
 - [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction/?WT_.mc_id=github-twitch04-jahand)
-
 - [Data Migration Tool](https://aka.ms/csdmtool)
-
 - [Getting Started with SQL queries in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-getting-started/?WT_.mc_id=github-twitch04-jahand)
 
 ## More
 
 - [Use Data migration tool to migrate your data to Azure Cosmos DB](
 https://docs.microsoft.com/en-us/azure/cosmos-db/import-data/?WT_.mc_id=github-twitch04-jahand)
-
 - [Twitter Scraping and Saving](
 https://github.com/Dkreitzer/Twitter_Scraping_and_Saving)
-
 - [More SQL in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-select/?WT_.mc_id=github-twitch04-jahand)
