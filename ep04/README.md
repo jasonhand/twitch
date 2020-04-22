@@ -9,17 +9,19 @@ In this recording we'll attempt to collect information from the Twitter API, exp
 Our first step will be to collect the data. We will use a Jupyter notebook ([based on this repo](
 https://github.com/Dkreitzer/Twitter_Scraping_and_Saving) to generate a list (JSON) of tweets based on a search term. In our example, we'll use `#EarthDay`.
 
-1. Create Azure Machine Learning Workspace
+[Create a free Machine Learning Account](https://azure.microsoft.com/en-us/free/machine-learning/?WT_.mc_id=github-twitch04-jahand)
+
+1. [Create Azure Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace/?WT_.mc_id=github-twitch04-jahand)
 2. Import notebook (from local drive)
-3. Create VM ("compute")
-4. Configure & Execute notebook
+3. Create VM ("[compute](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-instance/?WT_.mc_id=github-twitch04-jahand")
+4. Configure & Execute [Jupyter notebook](https://docs.microsoft.com/en-us/azure/machine-learning/samples-notebooks/?WT_.mc_id=github-twitch04-jahand)
 5. Download JSON file
 
 ## Cosmos DB
 
 We are going to use Cosmos DB to store our data.
 
-1. Create Cosmos DB
+1. [Create Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal/?WT_.mc_id=github-twitch04-jahand)
 2. Create new item
 3. Attempt upload of json file (it's too big)
 
@@ -27,9 +29,9 @@ We are going to use Cosmos DB to store our data.
 
 Files larger than 2MiB cannot be uploaded to Cosmos DB from the Data Explorer in the portal. We'll need to use software that is ONLY available on Windows PC. I don't have a Windows PC available, so we will need to create a virtual machine in Azure that we can remote login to and use to migrate the data.
 
-1. Set up Windows VM
+1. [Set up Windows 10 Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal/?WT_.mc_id=github-twitch04-jahand)
 2. [Downlod and install](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12) RDP client on Mac
-3. Connect to Windows machine
+3. [Connect to Windows machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/connect-logon/?WT_.mc_id=github-twitch04-jahand)
 
 ## Migrate JSON data to Cosmos DB
 
@@ -42,15 +44,15 @@ Using the Data Migration Tool we can connect to our new Cosmos DB and import the
 
 ## Querying our data
 
-1. Query data with the following queries
+1. [Query data](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-getting-started/?WT_.mc_id=github-twitch04-jahand) with the following queries
 
-Sample Query 1:
+### Sample Query 1:
 
 ```SQL
 SELECT c.entities.hashtags FROM c
 ```
 
-Sample Query 2:
+### Sample Query 2:
 
 ```SQL
 SELECT { "hashtags": c.entities.hashtags, "user mentions": c.entities.user_mentions, "urls": c.urls }
@@ -59,7 +61,7 @@ SELECT { "hashtags": c.entities.hashtags, "user mentions": c.entities.user_menti
 
 ## Clean up
 
-Because I need to generate a set of keys for the demo, I will then remove and regenerate the Twitter API keys.
+Because I need to [generate a set of keys](https://developer.twitter.com/) for the demo, I will then remove and regenerate the Twitter API keys.
 
 1. Rotate API keys
 
@@ -67,7 +69,7 @@ Because I need to generate a set of keys for the demo, I will then remove and re
 
 - [Azure](https://azure.microsoft.com/free/?WT_.mc_id=github-twitch04-jahand)
 - [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/?WT_.mc_id=github-twitch04-jahand)
-- [Developer.twitter.com](https://developer.twitter.com/en)
+- [Developer.twitter.com](https://developer.twitter.com/)
 - [Tweepy](https://tweepy.org)
 - [Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/?WT_.mc_id=github-twitch04-jahand)
 - [Microsoft Remote Desktop 10](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12)
@@ -81,6 +83,5 @@ Because I need to generate a set of keys for the demo, I will then remove and re
 
 - [Use Data migration tool to migrate your data to Azure Cosmos DB](
 https://docs.microsoft.com/en-us/azure/cosmos-db/import-data/?WT_.mc_id=github-twitch04-jahand)
-- [Twitter Scraping and Saving](
+- [Sentiment Analysis Repo](
 https://github.com/Dkreitzer/Twitter_Scraping_and_Saving)
-- [More SQL in Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-select/?WT_.mc_id=github-twitch04-jahand)
