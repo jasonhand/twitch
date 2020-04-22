@@ -4,6 +4,8 @@
 
 In this recording we'll attempt to collect information from the Twitter API, export the data to JSON, and import data in to Cosmos DB for querying.
 
+[![](img/ep4.png)](https://youtu.be/cR86v2CgvGc)
+
 ## Azure Machine Learning Studio
 
 Our first step will be to collect the data. We will use a Jupyter notebook ([based on this repo](
