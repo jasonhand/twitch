@@ -15,7 +15,7 @@ https://github.com/Dkreitzer/Twitter_Scraping_and_Saving) to generate a list (JS
 
 1. [Create Azure Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace/?WT_.mc_id=github-twitch04-jahand)
 2. Import notebook (from local drive)
-3. Create VM ("[compute](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-instance/?WT_.mc_id=github-twitch04-jahand)"
+3. Create VM ("[compute](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-instance/?WT_.mc_id=github-twitch04-jahand)")
 4. Configure & Execute [Jupyter notebook](https://docs.microsoft.com/en-us/azure/machine-learning/samples-notebooks/?WT_.mc_id=github-twitch04-jahand)
 5. Download JSON file
 
@@ -34,6 +34,8 @@ Files larger than 2MiB cannot be uploaded to Cosmos DB from the Data Explorer in
 1. [Set up Windows 10 Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal/?WT_.mc_id=github-twitch04-jahand)
 2. [Downlod and install](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12) RDP client on Mac
 3. [Connect to Windows machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/connect-logon/?WT_.mc_id=github-twitch04-jahand)
+
+>NOTE: Honestly, that last resource link (connect to windows machine) isn't that helpful for using the RDP app I suggest in step 2. It's pretty self-explanatory but I'll work on a separate set of instructions specific to these tools (and being on a Mac).
 
 ## Migrate JSON data to Cosmos DB
 
