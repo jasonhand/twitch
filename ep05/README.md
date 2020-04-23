@@ -1,5 +1,7 @@
 # Intro to Version and Source Control with git and GitHub
 
+![View on Youtube](img/ep5.png)
+
 This recording will go through the basics of creating a brand new repository on Github. We will go through two scenarios.
 
 - **Pulling:** Create a new repository on GitHub and clone to the local machine
