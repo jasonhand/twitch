@@ -1,6 +1,6 @@
 # Intro to Version and Source Control with git and GitHub
 
-![View on Youtube](img/ep5.png)
+[![View on Youtube](img/ep5.png)](https://youtu.be/vTrBZbISdwM)
 
 This recording will go through the basics of creating a brand new repository on Github. We will go through two scenarios.
 
