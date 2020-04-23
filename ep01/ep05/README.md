@@ -56,8 +56,9 @@ git push origin master
 
 ### Push existing code to your new repository
 
-
 ### Adding, Committing, and Pushing code from VS Code
+
+## Deleting Repositories in GitHub
 
 ### Resources
 
