@@ -74,7 +74,17 @@ Code is on our local machine and we want to upload (and sync) it with our GitHub
 
 ### Adding, Committing, and Pushing code from VS Code
 
-## Deleting Repositories in GitHub
+1. Make a change to the README (and save)
+2. `Add` and `Commit` using the [GitHub Pull Request Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) ([Source Code](https://github.com/Microsoft/vscode-pull-request-github))
+3. Push using `Sync` button in lower left of VS Code
+
+### Deleting Repositories in GitHub
+
+>WARNING: Deleting a repository is permanent. Be carefule with this next section. Only delete repositories you are positive are no longer needed.
+
+1. From the root of the repo (README screen) click the `Settings` link in the upper right
+2. Scroll to the bottom of the screen to the `Danger Zone` area
+3. Click the very last button that says `Delete this repository`
 
 ### Resources
 
