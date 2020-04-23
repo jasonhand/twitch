@@ -6,7 +6,7 @@ This recording will go through the basics of creating a brand new repository on 
 
 - **Pushing:** Create a new repository on Github and push existing code from my local machine to the repo
 
-This tutorial assumes you already have a GitHub account and `git` is installed on your local machine.
+This tutorial assumes you already have a [GitHub](https://github.com/) account and `git` is installed on your local machine.
 
 ## Pulling
 
@@ -28,8 +28,8 @@ You'll then be returned to the front page (README) of the new repo.
 1. Click the green button that says `Clone or download`
 2. Click the clipboard button to copy the `URL`
 3. Open your Terminal application
-4. Navigate to the directory that you want to clone in to
-5. Clone the repository using the following command
+4. Navigate to the directory that you want to clone in to (*example:* `~/dev/`)
+5. Clone the repository using the following command in your terminal application
 
 ```git
 git clone <paste_the_URL_from_clipboard>
@@ -38,6 +38,9 @@ git clone <paste_the_URL_from_clipboard>
 >IMPORTANT: Make sure the URL you paste after `git clone` includes the `.git` extension.
 
 ## Git Commands Used In This Tutorial
+
+There are many things you can do with `git`. However, to create, initialize, and synchronize a repository only requires a few commands.
+The following commands are used in this tutorial.
 
 Add file(s) to a collection that will be pushed to the GitHub repository.
 
@@ -71,6 +74,8 @@ Code is on our local machine and we want to upload (and sync) it with our GitHub
 6. Press the green `Create repository` button
 
 ### Push Existing Code to Your New Repository
+
+[See above](#git-commands-used-in-this-tutorial)
 
 ### Adding, Committing, and Pushing code from VS Code
 
