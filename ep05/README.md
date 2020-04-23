@@ -39,7 +39,7 @@ git clone <paste_the_URL_from_clipboard>
 
 ## Pushing
 
-Code is on our local machine and we want to upload (and sync) it with our GitHub repository.
+Files are on our *local machine* and we want to upload (and sync) it with a GitHub repository.
 
 ### Create a new repository on Github and push existing code from my local machine to the repo
 
@@ -52,7 +52,7 @@ Code is on our local machine and we want to upload (and sync) it with our GitHub
 
 ### Push Existing Code to Your New Repository
 
-There are many things you can do with `git`. However, to create, initialize, and synchronize a repository only requires a few commands.
+There are many things you can do with `git`. However, to upload and synchronize a repository only requires a few commands.
 The following commands are used in this tutorial.
 
 1. Add file(s) to a collection that will be pushed to the GitHub repository. `git add .`
@@ -62,8 +62,8 @@ The following commands are used in this tutorial.
 ### Adding, Committing, and Pushing code from VS Code
 
 1. Make a change to the README (and save)
-2. `Add` and `Commit` using the [GitHub Pull Request Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) ([Source Code](https://github.com/Microsoft/vscode-pull-request-github))
-3. Push using `Sync` button in lower left of VS Code
+2. `Add` and `Commit` using the Source Control feature of VS Code
+3. *Push* using `Sync` button in lower left of VS Code
 
 ### Deleting Repositories in GitHub
 
