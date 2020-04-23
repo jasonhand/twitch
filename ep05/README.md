@@ -37,7 +37,20 @@ git clone <paste_the_URL_from_clipboard>
 
 >IMPORTANT: Make sure the URL you paste after `git clone` includes the `.git` extension.
 
-## Git Commands Used In This Tutorial
+## Pushing
+
+Code is on our local machine and we want to upload (and sync) it with our GitHub repository.
+
+### Create a new repository on Github and push existing code from my local machine to the repo
+
+1. Choose `New Repository` from the `+` icon in the upper right
+2. Assign a name (example: `repo_two`)
+3. Give it a description
+4. Choose `Private` (***NOTE:** it works the same if you choose Public*)
+5. **DO NOT** Select the checkbox for `Initialize this repository with a README` (***NOTE**: This is the difference from the previous method above*. We want to *skip this step*)
+6. Press the green `Create repository` button
+
+### Push Existing Code to Your New Repository
 
 There are many things you can do with `git`. However, to create, initialize, and synchronize a repository only requires a few commands.
 The following commands are used in this tutorial.
@@ -59,23 +72,6 @@ Push the collection to the `master` branch in the GitHub repository.
 ```git
 git push origin master
 ```
-
-## Pushing
-
-Code is on our local machine and we want to upload (and sync) it with our GitHub repository.
-
-### Create a new repository on Github and push existing code from my local machine to the repo
-
-1. Choose `New Repository` from the `+` icon in the upper right
-2. Assign a name (example: `repo_two`)
-3. Give it a description
-4. Choose `Private` (***NOTE:** it works the same if you choose Public*)
-5. **DO NOT** Select the checkbox for `Initialize this repository with a README` (***NOTE**: This is the difference from the previous method above*. We want to *skip this step*)
-6. Press the green `Create repository` button
-
-### Push Existing Code to Your New Repository
-
-[See above](#git-commands-used-in-this-tutorial)
 
 ### Adding, Committing, and Pushing code from VS Code
 
