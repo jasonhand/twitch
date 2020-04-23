@@ -12,3 +12,4 @@ This is my central repository for everything I do on Twitch.
 |2   |[Deploying a Serverless URL Shortener with Azure Functions (Twitch - Episode: 02)](/ep02/README.md)   |4/14/20   | [📼](https://youtu.be/qhy5aNUqIMc)  |
 |3   |[Part 2: Building a Static Website with Hugo, Azure Storage, and Netlify (Twitch Episode 03)](/ep03/README.md)   |4/15/20   |[📼](https://youtu.be/StmINse2jME)   |
 |4   |[Analyze Tweets with Azure Machine Learning and Cosmos DB](/ep04/README.md)   |4/22/20   |[📼](https://youtu.be/cR86v2CgvGc)   |
+|5   |[Intro to Version and Source Control with git and GitHub (Twitch Episode 5)](/ep04/README.md)   |4/23/20   |[📼](https://youtu.be/vTrBZbISdwM)   |
