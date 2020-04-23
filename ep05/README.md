@@ -1,4 +1,4 @@
-# Intro to git and GitHub
+# Intro to Version and Source Control with git and GitHub
 
 This recording will go through the basics of creating a brand new repository on Github. We will go through two scenarios.
 
@@ -10,7 +10,9 @@ This tutorial assumes you already have a GitHub account and `git` is installed o
 
 ## Pulling
 
-### Create a new repository on GitHub and clone to the local machine
+Code is in a GitHub repository and we want to clone (and sync) it with our local machine.
+
+### Create a New Repository on GitHub and Clone to the Local Machine
 
 1. Choose `New Repository` from the `+` icon in the upper right
 2. Assign a name (example: `first_repo`)
@@ -19,9 +21,23 @@ This tutorial assumes you already have a GitHub account and `git` is installed o
 5. Select the checkbox for `Initialize this repository with a README`
 6. Press the green `Create repository` button
 
-## Clone the repository to your local machine
+## Clone The Repository To Your Local Machine
 
-## git commands used in this tutorial
+You'll then be returned to the front page (README) of the new repo.
+
+1. Click the green button that says `Clone or download`
+2. Click the clipboard button to copy the `URL`
+3. Open your Terminal application
+4. Navigate to the directory that you want to clone in to
+5. Clone the repository using the following command
+
+```git
+git clone <paste_the_URL_from_clipboard>
+```
+
+>IMPORTANT: Make sure the URL you paste after `git clone` includes the `.git` extension.
+
+## Git Commands Used In This Tutorial
 
 Add file(s) to a collection that will be pushed to the GitHub repository.
 
@@ -41,9 +57,9 @@ Push the collection to the `master` branch in the GitHub repository.
 git push origin master
 ```
 
----
-
 ## Pushing
+
+Code is on our local machine and we want to upload (and sync) it with our GitHub repository.
 
 ### Create a new repository on Github and push existing code from my local machine to the repo
 
@@ -54,7 +70,7 @@ git push origin master
 5. **DO NOT** Select the checkbox for `Initialize this repository with a README` (***NOTE**: This is the difference from the previous method above*. We want to *skip this step*)
 6. Press the green `Create repository` button
 
-### Push existing code to your new repository
+### Push Existing Code to Your New Repository
 
 ### Adding, Committing, and Pushing code from VS Code
 
