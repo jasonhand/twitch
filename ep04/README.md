@@ -41,7 +41,7 @@ Files larger than 2MiB cannot be uploaded to Cosmos DB from the Data Explorer in
 
 Using the Data Migration Tool we can connect to our new Cosmos DB and import the large JSON file.
 
-1. [Download and install](https://aka.ms/csdmtool) the Document DB Data Migration Tool
+1. [Download and install](https://aka.ms/csdmtool) the Document DB Data Migration Tool - ***IMPORTANT** clicking this link will automatically download a ZIP file containing the too.*
 2. Download json file
 3. [Import json file to Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/import-data/?WT_.mc_id=github-twitch04-jahand)
 4. [View Data Explorer in Cosmos Db](https://docs.microsoft.com/en-us/azure/cosmos-db/data-explorer/?WT_.mc_id=github-twitch04-jahand)
