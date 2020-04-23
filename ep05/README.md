@@ -55,23 +55,9 @@ Code is on our local machine and we want to upload (and sync) it with our GitHub
 There are many things you can do with `git`. However, to create, initialize, and synchronize a repository only requires a few commands.
 The following commands are used in this tutorial.
 
-Add file(s) to a collection that will be pushed to the GitHub repository.
-
-```git
-git add .
-```
-
-Commit (prepare) the collection with a message to be pushed to a branch in the GitHub repository.
-
-```git
-git commit -m "The message associated with the commit"
-```
-
-Push the collection to the `master` branch in the GitHub repository.
-
-```git
-git push origin master
-```
+1. Add file(s) to a collection that will be pushed to the GitHub repository. `git add .`
+2. Commit (prepare) the collection with a message to be pushed to a branch in the GitHub repository. `git commit -m "The message"`
+3. Push the collection to the `master` branch in the GitHub repository. `git push origin master`
 
 ### Adding, Committing, and Pushing code from VS Code
 
