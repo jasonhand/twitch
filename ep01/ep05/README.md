@@ -56,6 +56,9 @@ git push origin master
 
 ### Push existing code to your new repository
 
+
+### Adding, Committing, and Pushing code from VS Code
+
 ### Resources
 
 - [Vim editor](https://www.vim.org/)
