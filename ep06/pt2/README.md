@@ -153,7 +153,7 @@ Here you will find a script to automate the process of creating all resources ne
 
 You can download the script to your local machine by running the following:
 
-`curl 'address of file' > createVM.sh`
+`curl 'https://raw.githubusercontent.com/jasonhand/twitch/master/ep06/bash/createVM.sh' > createVM.sh`
 
 ### Resources
 
