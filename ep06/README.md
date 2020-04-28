@@ -1,6 +1,6 @@
 # Roll Your Own Jitsi Service on Azure
 
-![jitsi](https://gfoss.eu/wp-content/uploads/sites/24/2016/03/jitsi-logo-square.png)
+![jitsi](img/jitsi_logo.png)
 
 In this recording we will step through the process of setting up your own "Zoom"-like video conferencing system. Jitsi is an open source project that provides much of the same functionality and you can host it on your own systems.
 
