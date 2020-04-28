@@ -9,8 +9,8 @@ Needed:
 
 ## Part One
 
-Create the needed resources
+[Create the needed resources](/ep06/pt1/README.md)
 
 ## Part Two
 
-Setup the resources
+[Setup the resources](/ep06/pt2/README.md)
