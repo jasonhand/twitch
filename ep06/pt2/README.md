@@ -155,6 +155,14 @@ You can download the script to your local machine by running the following:
 
 `curl 'https://raw.githubusercontent.com/jasonhand/twitch/master/ep06/bash/createVM.sh' > createVM.sh`
 
+Make the file executable by running the following:
+
+`chmod 777 createVM.sh`
+
+Then run the script with the following:
+
+`./createVM.sh`
+
 ### Resources
 
 [Configuring a custom domain name for an Azure cloud service](
