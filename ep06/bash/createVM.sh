@@ -8,6 +8,9 @@
 # If this is the first time using this script, run the following command to accept the terms for the Jitsi image.
 # az vm image accept-terms --urn cloud-infrastructure-services:jitsi-meet:jitsi-meet:latest
 #
+#NOTE: You may receive the following message:
+# "This command has been deprecated and will be removed in version '3.0.0'. Use 'az vm image terms accept' instead."
+# We will change the script to use this command in the future.
 # Everything from this point down can be run without the prior `az login` and `az vm image accept-terms` commands.
 
 #Ask the user for name to use for all resources and groupings
