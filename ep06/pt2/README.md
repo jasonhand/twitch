@@ -1,6 +1,6 @@
 # Roll Your Own Jitsi Service on Azure (pt. 2)
 
-Now that we have our virtual machine running and ready we can begin setting up our Jitsi service.
+Now that we have [our virtual machine running](../pt1/README.md) and ready we can begin setting up our Jitsi service.
 
 ## Virtual Machine Config
 
@@ -18,18 +18,18 @@ We need to:
 
 >NOTE: This is already done if you use the template
 
-Manually opening port `80`, `43`, `443`, and `10000` from the Portal through the `networking` blade. All ports are TCP except for 10000. It is UDP. Be sure to give each a unique name.
+[Manually opening port `80`, `43`, `443`, and `10000` from the Portal through the `networking` blade](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/nsg-quickstart-portal/?wt.mc_id=github-twitch06-jahand). All ports are TCP except for 10000. It is UDP. Be sure to give each a unique name.
 
 ### 2. Configure DNS on Virtual Machine
 
-- From the VM's overview blade click on the `Configure` link under `DNS name`
+- [From the VM's overview blade click on the `Configure` link under `DNS name`](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/portal-create-fqdn/?wt.mc_id=github-twitch06-jahand)
 - Leave the `Assignment` as "Dynamic" and enter a DNS name label (ex. meet-jitsi) and press Save
 - From the overview screen refresh the details and you should now see your "fully qualified domain name" (ex. `meet-jitsi.eastus.cloudapp.azure.com`)
 
 ### 3. Enable SSH
 
 - From within the portal, browse the VM
-- Select the `Connect` by `SSH` from the top toolbar in the Overview blade
+- [Select the `Connect` by `SSH` from the top toolbar in the Overview blade](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/virtual-machine/cpp-connect-vm/?wt.mc_id=github-twitch06-jahand)
 
 ### 4. Connect to the server via SSH
 
@@ -86,7 +86,7 @@ In this example I'm using `cloudavision.com` as my top level domain (TLD). I wil
    `sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh`
 - Press enter after inputting your email
 
-Once the Let's Encrypt script completes you should see a "Congratulations" message.
+Once the [Let's Encrypt](https://letsencrypt.org/) script completes you should see a "Congratulations" message.
 
 At this point, we are ready to test out our Jitsi deployment.
 
@@ -98,7 +98,7 @@ You should see the landing page with a form in the middle to provide a room name
 
 We didn't specifiy the size of the VM.. so we got what?
 
-It seems sufficient to handle at least one video chat but how many can it handle before it starts to have problems? When running `htop` there are a ton of java errors mentioning `HeapDumpOnOutOfMemoryError`. I wonder if a larger machine would also have these errors? For each new connection I add (upt to three) I see more and more memory related errors in `htop`.
+It seems sufficient to handle at least one video chat but how many can it handle before it starts to have problems? When running `htop` there are a ton of java errors mentioning `HeapDumpOnOutOfMemoryError`. I wonder if a larger machine would also have these errors? For each new connection I add (up to three) I see more and more memory related errors in `htop`.
 
 Looking deeper:
 
@@ -163,12 +163,11 @@ Then run the script with the following:
 
 `./createVM.sh`
 
-### Resources
+### Additional Resources
 
 [Configuring a custom domain name for an Azure cloud service](
-https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-custom-domain-name-portal)
+https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-custom-domain-name-portal?wt.mc_id=github-twitch06-jahand)
 
-https://docs.microsoft.com/en-us/cli/azure/network/nsg?view=azure-cli-latest#az-network-nsg-create
+https://docs.microsoft.com/en-us/cli/azure/network/nsg?view=azure-cli-latest#az-network-nsg-create?wt.mc_id=github-twitch06-jahand
 
-https://docs.microsoft.com/en-us/azure/virtual-machines/linux/nsg-quickstart
-
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/nsg-quickstart?wt.mc_id=github-twitch06-jahand

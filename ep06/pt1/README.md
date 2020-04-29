@@ -178,12 +178,3 @@ Now we can check out our VM through the portal and [continue the setup in Part 2
 ## 3. Azure Resource Manager (ARM) Template
 
 (Coming soon...)
-
-Docs used:
-
-[Azure Command Line Interface](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest/?WT_.mc_id=github-twitch06-jahand)
-
-[Quickstart: Create a Windows virtual machine with the Azure CLI](
-https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli/?WT_.mc_id=github-twitch06-jahand)
-
-[az account](https://docs.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest/?WT_.mc_id=github-twitch06-jahand)
