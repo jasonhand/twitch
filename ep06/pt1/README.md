@@ -4,7 +4,7 @@
 
 To complete this tutorial you will need the following:
 
-- Azure Account
+- [Azure Account](http://azure.com/join/?wt.mc_id=github-twitch06-jahand)
 - Azure CLI installed locally
 
 ## Create Virtual Machine
@@ -20,11 +20,13 @@ To complete this tutorial you will need the following:
 >NOTE: There is a Jitsi image available when choosing with OS
 
 ![azure-marketplace](../img/jitsi-mkt.png)
-Follow the template to deploy the server and [pick back up with Part 2 of this tutorial](../pt2/README.md).
+Follow the [template to deploy](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/cloud-infrastructure-services.jitsi-meet/?wt.mc_id=github-twitch06-jahand) the server and [pick back up with Part 2 of this tutorial](../pt2/README.md).
 
 If you'd like to create all the resources programmatically or from the command line, follow the rest of the instructions below.
 
 ## 2. Command Line (Azure CLI)
+
+[Everything that can be performed using the `az account` command can be found here.](https://docs.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest/?wt.mc_id=github-twitch06-jahand)
 
 First, let's make sure we are in the subscription we want to use. To see all subscriptions your account is associated with, run the following from the command line:
 
@@ -50,7 +52,7 @@ az account set --subscription "<yourSubscriptionName>"
 
 ### View the Jitsi Image Information (Optional)
 
-There are many images available to us on Azure that we can use when deploying virtual machines. We are going to select the "Jitsi Meet Video Conferencing on Ubuntu" image. We can view the details by running the following command. However, it does take a few moments to return the results. They are listed below.
+There are [many images available to us on Azure](https://docs.microsoft.com/en-us/cli/azure/vm/image?view=azure-cli-latest/?wt.mc_id=github-twitch06-jahand) that [we can use when deploying virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cli-ps-findimage/?wt.mc_id=github-twitch06-jahand). We are going to select the "Jitsi Meet Video Conferencing on Ubuntu" image. We can view the details by running the following command. However, it does take a few moments to return the results. They are listed below.
 
 ```s
 az vm image list --offer jitsi --output table --all
@@ -66,7 +68,7 @@ jitsi-meet  cloud-infrastructure-services  jitsi-meet  cloud-infrastructure-serv
 
 ### Check for Additional License and Purchase Terms (Optional)
 
-Some of the images available to us for deployment require acceptance of terms prior to using. The Jitsi service is one of those. By running the following, we can obtain a few values needed in order to provision the service from the command line. This is optional for you to run as the results are the same for everyone. That said, if you'd like to see the output, run the following:
+Some of the images available to us for deployment require acceptance of terms prior to using. The Jitsi service is one of those. [By running the following, we can obtain a few values needed](https://docs.microsoft.com/en-us/cli/azure/image?view=azure-cli-latest#az-image-show/?wt.mc_id=github-twitch06-jahand) in order to provision the service from the command line. This is optional for you to run as the results are the same for everyone. That said, if you'd like to see the output, run the following:
 
 ```s
 az vm image show --location eastus --urn cloud-infrastructure-services:jitsi-meet:jitsi-meet:latest
@@ -96,7 +98,7 @@ We will be including the details found in the `"plan"` from the output above.
 
 ### Accept Jitsi Service Terms
 
-To accept the terms run the following:
+To accept the terms [run the following](https://docs.microsoft.com/en-us/cli/azure/vm/image?view=azure-cli-latest#az-vm-image-accept-terms/?wt.mc_id=github-twitch06-jahand):
 
 ```s
 az vm image accept-terms --urn cloud-infrastructure-services:jitsi-meet:jitsi-meet:latest
@@ -126,7 +128,7 @@ The output includes a `licenseTextLink` to the license terms, and indicates that
 
 ### Create a Resource Group
 
-Now we can create the resource group followed by the virtual machine using the following:
+[Now we can create the resource group](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az-group-create/?wt.mc_id=github-twitch06-jahand) followed by the virtual machine using the following:
 
 ```s
 az group create --name JitsiResourceGroup --location eastus
@@ -149,7 +151,7 @@ Results look like:
 
 ### Create a Virtual Machine
 
-Now we create the virtual machine with:
+Now we [create the virtual machine](https://docs.microsoft.com/en-us/cli/azure/vm?view=azure-cli-latest#az-vm-create/?wt.mc_id=github-twitch06-jahand) with:
 
 ```s
 az vm create --resource-group JitsiResourceGroup --name JitsiVM --image cloud-infrastructure-services:jitsi-meet:jitsi-meet:latest --plan-name jitsi-meet --plan-product jitsi-meet --plan-publisher cloud-infrastructure-services
@@ -171,7 +173,7 @@ You'll get output like:
 }
 ```
 
-Now we can check out our VM through the portal and continue the setup in Part 2.
+Now we can check out our VM through the portal and [continue the setup in Part 2](../pt2/README.md).
 
 ## 3. Azure Resource Manager (ARM) Template
 
@@ -179,9 +181,12 @@ Now we can check out our VM through the portal and continue the setup in Part 2.
 
 Docs used:
 
-[Azure Command Line Interface](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
+[Azure Command Line Interface](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest/?WT_.mc_id=github-twitch06-jahand)
 
 [Quickstart: Create a Windows virtual machine with the Azure CLI](
-https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli)
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli/?WT_.mc_id=github-twitch06-jahand)
 
-[az account](https://docs.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest)
+[az account](https://docs.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest/?WT_.mc_id=github-twitch06-jahand)
+
+
+?WT_.mc_id=github-twitch06-jahand

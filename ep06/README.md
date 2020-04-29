@@ -6,7 +6,7 @@ In this recording we will step through the process of setting up your own "Zoom"
 
 Needed:
 
-- Ubuntu VM
+- [Ubuntu VM](https://docs.microsoft.com/en-us/azure/virtual-machines/?WT_.mc_id=github-twitch06-jahand)
 - Domain name
 
 ## Part One
