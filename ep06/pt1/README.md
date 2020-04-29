@@ -52,7 +52,7 @@ az account set --subscription "<yourSubscriptionName>"
 
 ### View the Jitsi Image Information (Optional)
 
-There are [many images available to us on Azure](https://docs.microsoft.com/en-us/cli/azure/vm/image?view=azure-cli-latest/?wt.mc_id=github-twitch06-jahand) that [we can use when deploying virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cli-ps-findimage/?wt.mc_id=github-twitch06-jahand). We are going to select the "Jitsi Meet Video Conferencing on Ubuntu" image. We can view the details by running the following command. However, it does take a few moments to return the results. They are listed below.
+There are [many images available to us on Azure](https://docs.microsoft.com/en-us/cli/azure/vm/image?view=azure-cli-latest?wt.mc_id=github-twitch06-jahand) that [we can use when deploying virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cli-ps-findimage/?wt.mc_id=github-twitch06-jahand). We are going to select the "Jitsi Meet Video Conferencing on Ubuntu" image. We can view the details by running the following command. However, it does take a few moments to return the results. They are listed below.
 
 ```s
 az vm image list --offer jitsi --output table --all
