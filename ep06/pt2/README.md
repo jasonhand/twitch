@@ -129,7 +129,7 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map?tabs=net
 
 The public DNS for my VM is : `demo-jitsi.eastus.cloudapp.azure.com`.
 
-I want to configure a shorter domain to point to redirect to the cloudapp.azure address. I will need to make changes to my DNS settings on Godaddy, where the domain is registered and DNS is managed.
+I want to configure a shorter domain to redirect to the cloudapp.azure address. I will need to make changes to my DNS settings on Godaddy, where the domain is registered and DNS is managed.
 
 - Login to DNS Manager (ex. Godaddy)
 - Choose a domain (ex. Cloudavision.com)
