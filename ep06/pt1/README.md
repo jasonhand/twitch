@@ -5,7 +5,7 @@
 To complete this tutorial you will need the following:
 
 - [Azure Account](http://azure.com/join/?wt.mc_id=github-twitch06-jahand)
-- Azure CLI installed locally
+- [Azure CLI installed locally](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest/?wt.mc_id=github-twitch06-jahand)
 
 ## Create Virtual Machine
 
@@ -187,6 +187,3 @@ Docs used:
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli/?WT_.mc_id=github-twitch06-jahand)
 
 [az account](https://docs.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest/?WT_.mc_id=github-twitch06-jahand)
-
-
-?WT_.mc_id=github-twitch06-jahand
