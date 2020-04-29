@@ -133,9 +133,11 @@ I want to configure a shorter domain to point to redirect to the cloudapp.azure 
 
 - Login to DNS Manager (ex. Godaddy)
 - Choose a domain (ex. Cloudavision.com)
-- Add a `CNAME` with host `www` that points to the domain name configured (ex. `demo-jitsi.eastus.cloudapp.azure.com`)
+- Add a `CNAME` with host `meet` that points to the domain name configured (ex. `demo-jitsi.eastus.cloudapp.azure.com`)
 
-### Customize the interface
+### Customize the Interface
+
+I haven't looked much in to how to customize my instance. The first thing that I obviously wanted to remove was the watermark. That was actually pretty easy.
 
 You can remove the watermark and make minor changes here:
 
@@ -147,9 +149,9 @@ sudo vi /usr/share/jitsi-meet/interface_config.js
 
 Now that we have the steps needed to create the vm, we can begin to automate some of the tasks. We can do this with a simple bash script.
 
-[CreateVM.sh](/ep06/bash/createVM.sh)
+Take a look at this very basic bash script I made to deploy all resources needed for a Jitsi VM - [CreateVM.sh](/ep06/bash/createVM.sh)
 
-Here you will find a script to automate the process of creating all resources needed. Once the virtual machine is deployed, you can pick up at the beginning of Part 2 in this tutorial.
+Here you will find a script to automate the process of creating all resources needed. Once the virtual machine is deployed, you can [pick up at the beginning of Part 2 in this tutorial](/pt2/README.md).
 
 You can download the script to your local machine by running the following:
 
@@ -162,6 +164,8 @@ Make the file executable by running the following:
 Then run the script with the following:
 
 `./createVM.sh`
+
+The script will prompt you to provide a name. Whatever you enter will be the name of the Resource Group and used to create all addtional resources. You need to use lowercase letters to avoid an error.
 
 ### Additional Resources
 
