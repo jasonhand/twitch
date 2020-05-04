@@ -1,4 +1,4 @@
-# Analyzing Tweets with Azure Machine Learning and Cosmos DB
+# Analyzing Tweets with Azure Machine Learning Studio and Cosmos DB
 
 ![EarthDay](img/header.jpg)
 
