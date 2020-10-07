@@ -1,0 +1,1 @@
+Spark is the leading Big Data analytics framework. However, it also has excellent features for Stream processing and machine learning development. Big Data systems are a new reality. Whether we’re creating microservices-based solutions or machine learning.
